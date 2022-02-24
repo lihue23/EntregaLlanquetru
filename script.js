@@ -96,6 +96,9 @@ while(repetir){
     if(contadorPc>contadorJ1){
         break
     }
+    else if(contadorJ1 >= 21){
+        break
+    }
     else if(contadorPc<contadorJ1){
         alert(`El total de la PC es de ${contadorPc}, mientras que el total de ${jugador1.nombre} fue de ${contadorJ1} acercandose mas a 21!!`)
         jugador1.ganaste()

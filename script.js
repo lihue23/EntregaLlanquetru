@@ -12,7 +12,7 @@ class Jugador{
     }
 }
 
-var jugadorPc = new Jugador ("pc","pc", 300)
+var jugadorPc = new Jugador ("pc","pc", 200)
 
 
 do{

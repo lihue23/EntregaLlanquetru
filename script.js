@@ -50,6 +50,7 @@ do{
         break
     }
     else if(contadorJ1>21){
+        alert(`El total de sus numeros es ${contadorJ1}`)
         jugador1.perdiste()
         break
     }
